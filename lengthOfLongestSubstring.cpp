@@ -1,6 +1,3 @@
-#include<bits/stdc++.h>
-using namespace std;
-
 class Solution {
 public:
 
@@ -41,16 +38,8 @@ public:
                 rest.push_back(s[i]);
 
             }
-
+            // cout<<i<<" "<<max_length<<endl;
         }
         return max_length;
     }
 };
-
-int main(){
-  Solution a;
-  string s ;
-  cin>>s;
-  cout<<a.lengthOfLongestSubstring(s)<<endl;;
-  return 0;
-}
